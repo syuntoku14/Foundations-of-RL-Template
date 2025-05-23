@@ -1,7 +1,7 @@
 # 第N回
 
 1. [ ] 説明する内容
-2. [ ]
+2. [ ] ...
 
 ---
 
@@ -34,6 +34,8 @@ pnpm export --per-slide
 じゃないとページ番号がバグる．
 （ここにもっと情報あるかも：https://sli.dev/features/global-layers ）
 
+* 同じLANからアクセスするとき：
+* `pnpm dev --remote`　して，[IP]:3030/entryにアクセスする
 
 ## 動画
 
