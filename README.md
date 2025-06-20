@@ -41,3 +41,11 @@ pnpm export --per-slide
 
 * 画面全体を録画しよう．タブだけだとバグる
 * 出力はWEBM (Vp9) & HD 720p 24fpsでいいかも．Qualityはlowで．
+
+```bash
+# 音声分離 
+ffmpeg -i [title].webm -vn -acodec copy [title].oga
+
+# 音声の入れ替え
+ffmpeg -i [title].webm -i [title].mp3 -c:v libvpx-vp9 -c:a libopus -map 0:v:0 -map 1:a:0 [title].webm
+```
