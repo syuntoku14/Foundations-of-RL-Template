@@ -19,6 +19,8 @@ To start the slide show:
 
 - `pnpm build --base /Foundations-of-RL-[N] --out docs`
 
+後はこのブログ参照：https://zenn.dev/fuqunaga/articles/96f9a82e63aa56
+
 ---
 
 ## その他注意
